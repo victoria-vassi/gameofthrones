@@ -1,11 +1,8 @@
 import React from 'react'
 
 class Card extends React.Component {
-
     render() {
-
         const { card } = this.props;
-
         return (
             <div class="card">
                 <div class="card-body">
