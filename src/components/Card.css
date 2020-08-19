@@ -1,0 +1,21 @@
+.container {
+   width: 95%;
+   margin: 2.5%;
+}
+
+.card > div {
+   border: 1px solid #dfe1e8;
+   border-radius: 5px;
+   padding: 10px;
+   cursor: pointer;
+   overflow: hidden;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+}
+
+div {
+    display: block;
+}
