@@ -3,15 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 import HomePage from "./pages/home"
 import Cards from "./components/Cards"
-import Navbar from "./components/Navbar"
+import { Col, Row } from 'react-bootstrap'
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
-      <Cards />
+    <Row>
+      <Col sm={3}>
+        <img alt="avatar" className="avatar" src="/user.png" />
+      </Col>
+
+      <Col sm={8}>
+        <Cards />
+      </Col>
+    </Row>
     </div>
+
   );
 }
 
